@@ -183,4 +183,5 @@ io.on("connection", (socket) => {
 });
 
 const PORT = process.env.PORT || 3001;
+// linha final do arquivo — troca por isso:
 server.listen(PORT, "0.0.0.0", () => console.log(`🃏 UNO backend rodando na porta ${PORT}`));
